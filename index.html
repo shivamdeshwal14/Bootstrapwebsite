@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+        .custom-margin{
+            margin-top: -20px;
+        }
+    </style>
+</head>
+<body>
+  <!-- navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top"> <!--navbar-->
+        <div class="container ">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my-header">                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                
+                <a class="navbar-brand" href="#">My PAGE</a>
+            </div>
+            <div class="collapse navbar-collapse " id="my-header">
+            <a class="btn btn-info navbar-btn navbar-right" href="#">Download Now</a>
+            <ul class="nav navbar-nav">
+             <li class="active"><a href="#gallery">Gallery</a></li>
+             <li ><a href="#contactUs">ContactUs</a></li>
+             <li><a href="#">AboutUs</a></li>
+             <li ><a href="#feedback">Feedback</a></li>
+             <li ><a href="#faq">FAQ</a></li>
+            </ul>
+        </div>
+
+        </div>
+     </nav>
+     <!-- navbar end -->
+     <!-- Mywebsite Part -->
+    <div class="jumbotron custom-margin">                 <!--buttons-->
+       <div class="container text-center">
+        <h1>MY WEBSITE </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta iusto dolorem culpa quo ut fugit deleniti veniam, voluptatum mollitia obcaecati atque suscipit, qui nisi pariatur eum adipisci esse fuga sed?</p>
+        <div class="btn-group">
+            <a href="#" class="btn btn-danger btn-lg">Download</a>
+            <a href="#" class="btn btn-info btn-lg">Visit Branch</a>
+            <a href="#" class="btn btn-success btn-lg">Items</a>
+        </div>
+       </div>
+    </div> 
+    <!-- Mywebsite Ends -->
+    <!--FEEDBACK-->
+    <div class="container" id="feedback">                 
+        <div class="page-header">
+            <h2>Feedback <small>Some Valueable feedback</small></h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsa quidem fugit aperiam voluptate sunt perferendis, architecto deserunt natus laborum quas eos ratione necessitatibus quod libero recusandae cupiditate? Rem, sunt.</p>
+                </blockquote>
+                <footer>
+                  --Unknown Person
+                </footer>
+                
+            </div>
+            <div class="col-sm-4">
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsa quidem fugit aperiam voluptate sunt perferendis, architecto deserunt natus laborum quas eos ratione necessitatibus quod libero recusandae cupiditate? Rem, sunt.</p>
+                </blockquote>
+                <footer>
+                  --Unknown Person
+                </footer>
+                
+            </div>
+            <div class="col-sm-4">
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsa quidem fugit aperiam voluptate sunt perferendis, architecto deserunt natus laborum quas eos ratione necessitatibus quod libero recusandae cupiditate? Rem, sunt.</p>
+                </blockquote>
+                <footer>
+                  --Unknown Person
+                </footer>
+                
+            </div>
+        </div>
+    </div>
+    <!-- end of feedback part -->
+    <!-- form to subsribe for more -->
+    <div class="well ">                                    
+        <div class="container text-center">
+            <h3>Subscribe For More </h3>
+            <p>Enter Details</p>
+            <form class="form-inline" action="/action_page.php">
+                <div class="form-group">
+                  <label for="email">Name:</label>
+                  <input type="text" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="text">Email:</label>
+                  <input type="password" class="form-control" id="pwd">
+                </div>
+                
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+        </div>
+    </div>
+    <!-- form to subscribe ends  -->
+      <!--Gallery-->
+    <div class="container" id="gallery">                   
+        <div class="page-header">
+            <h2>Checkout <small>some awesome Gallery</small></h2>
+        </div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+               
+            </ol>
+          
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="gallery1.jpeg" alt="Los Angeles" alt="Gallery Pic1">
+              </div>
+          
+              <div class="item">
+                <img src="gallery2.jpeg" alt="Gallery Pic 2">
+              </div>
+          
+              <div class="item">
+                <img src="gallery3.jpeg" alt="New York" alt="Gallery Pic 3">
+              </div>
+
+              
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div> <!--Features-->
+    <div class="container" id="features">                
+        <div class="page-header">
+            <h2>Checkout <small>Awesome Features </small></h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Heading 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam et magni eaque molestiae architecto, voluptates maxime inventore aperiam consectetur. Labore laborum perspiciatis eos earum dolorem ipsa tempora eveniet ullam excepturi?</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="h1.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Heading 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam et magni eaque molestiae architecto, voluptates maxime inventore aperiam consectetur. Labore laborum perspiciatis eos earum dolorem ipsa tempora eveniet ullam excepturi?</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="h2.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Heading 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam et magni eaque molestiae architecto, voluptates maxime inventore aperiam consectetur. Labore laborum perspiciatis eos earum dolorem ipsa tempora eveniet ullam excepturi?</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="h3.jpg" class="img-responsive">
+            </div>
+        </div>
+    </div>
+    <!-- End of features -->
+    <!-- three features -->
+    <div class="container">                                <!--comments-->
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="panel panel-default text-center">
+                    <span class="glyphicon glyphicon-refresh "></span>
+                    <div class="panel-body"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id quas soluta omnis cum illo laborum sint laudantium tempora alias, beatae quam incidunt optio aperiam dolores nesciunt ad ab deserunt!</p></div>
+                  </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default text-center">
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <div class="panel-body"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id quas soluta omnis cum illo laborum sint laudantium tempora alias, beatae quam incidunt optio aperiam dolores nesciunt ad ab deserunt!</p></div>
+                  </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default text-center">
+                    <span class="glyphicon glyphicon-refresh "></span>
+                    <div class="panel-body"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id quas soluta omnis cum illo laborum sint laudantium tempora alias, beatae quam incidunt optio aperiam dolores nesciunt ad ab deserunt!</p></div>
+                  </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- three features end  -->
+    <!-- FAQ -->
+    <div class="container" id="faq">                         <!--FAQS-->
+        <div class="page-header">
+            <h2>Faq. <small>Consumer Queries</small></h2>
+        </div>
+        <div class="panel-group" id="accordion">
+         <div class="panel panel-default">
+           <div class="panel-heading">
+            <div class="panel-title">
+                <a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">Question One</a>
+            </div>
+            <div class="panel-collapse collapse in" id="collapse-1">
+              <div class="panel-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, officia expedita esse placeat quae possimus officiis! Autem excepturi, consequuntur est, similique facere unde perferendis officia quo delectus, quasi obcaecati expedita.</p>
+              </div>
+            </div>
+           </div>
+         </div>
+         <div class="panel panel-default">
+            <div class="panel-heading">
+             <div class="panel-title">
+                 <a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">Question two</a>
+             </div>
+             <div class="panel-collapse collapse in" id="collapse-2">
+               <div class="panel-body">
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, officia expedita esse placeat quae possimus officiis! Autem excepturi, consequuntur est, similique facere unde perferendis officia quo delectus, quasi obcaecati expedita.</p>
+               </div>
+             </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+             <div class="panel-title">
+                 <a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">Question three</a>
+             </div>
+             <div class="panel-collapse collapse in" id="collapse-3">
+               <div class="panel-body">
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, officia expedita esse placeat quae possimus officiis! Autem excepturi, consequuntur est, similique facere unde perferendis officia quo delectus, quasi obcaecati expedita.</p>
+               </div>
+             </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- faq ended -->
+    <!--contact us-->
+    <div class="container" id="contactUs">     
+                    
+                    <!-- page header -->
+        <div class="page-header">
+            <h2>Contact Us <small>Feel free to contact </small></h2>
+        </div>
+        <!-- page header end -->
+        <div class="row">
+            <div class="col-sm-4">
+                <p>Send us a message, or contact us from the address below.</p>
+                <!-- address -->
+                <address>
+                    <strong>MyOffice</strong>
+                    <br>
+                    123-B Sector 26
+                    <br>
+                    CHANDIGARH
+                    <br>
+                    123456
+                </address>
+                <!-- end address -->
+            </div>
+            
+            <div class="col-sm-8">
+                <form class="form-horizontal" >
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="email">User Name:</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="user name" placeholder="Enter user name">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="email">User Email:</label>
+                        <div class="col-sm-10">
+                          <input type="email" class="form-control" id="email" placeholder="Enter email id">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-sm-2" for="email">Website:</label>
+                        <div class="col-sm-10">
+                          <input type="email" class="form-control" id="Website" placeholder="Enter email id">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-sm-2" for="email">Message:</label>
+                        <div class="col-sm-10">
+                          <textarea class="form-control" id="message" cols="20" rows="10" placeholder="enter your message"></textarea>
+                        </div>
+                      </div>
+                    <div class="form-group">
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </div>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="page-header"> 
+      <div class="container text-center">
+        <ul class="list-inline text-center">
+          <li><a href="">Twitter</a></li>
+          <li><a href="">FaceBook</a></li>
+          <li><a href="">Youtube</a></li>
+      </ul> 
+      <p>&copy copyright @ 2023</p>
+      <h3>Developed By shivam Deshwal</h3>
+      <h4>shivamdeshwal1414@gmail.com</h4>
+      </div>                         <!--page footer-->
+        
+    </footer>
+    
+</body>
+</html>
